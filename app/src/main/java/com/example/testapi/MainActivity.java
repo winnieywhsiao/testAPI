@@ -23,10 +23,10 @@ public class MainActivity extends AppCompatActivity {
         text1_result = (TextView) findViewById(R.id.text1);
 
         try {
-            //getinfor();//拿取資料
+            getinfor();//拿取資料
             //postinfor();//新增資料
             //deleteinfor();
-            changeinfor();
+            //changeinfor();
         } catch (Exception e) {
             text1_result.setText(e.toString()+ " hello");
             Log.e("MainActivity", e.getMessage());
@@ -47,10 +47,11 @@ public class MainActivity extends AppCompatActivity {
 
                 //Infor infor = new Infor(response.body().getId(), response.body().getFields(), response.body().getCreateTime());
                 //array.add(infor);
-                //mtext_view_result.setText(infor.getId()+"hi");
+                //text1_result.setText(infor.getId()+"hi");
                 //String content = "";
-                // for(Infor word: array){
-                //      text_view_result.append(word.getfieldsName()+"\n");
+                 //for(Infor word: array) {
+                     //text1_result.append(word.getfieldsEmail() + "\n");
+                 //}
             }
 
             @Override
