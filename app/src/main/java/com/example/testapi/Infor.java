@@ -28,6 +28,14 @@ public class Infor {
         return records[i].fields.getEmail();
     }
 
+    public String getfieldsPhone(int i) {
+        return records[i].fields.getPhone();
+    }
+
+    public String getfieldsName(int i) {
+        return records[i].fields.getName();
+    }
+
     public fields getFields() {
         return fields;
     }

@@ -23,9 +23,9 @@ public class Login extends AppCompatActivity {
 
     private EditText mEmail;
     private EditText mPassword;
-    private Button mlogin;
+    //private Button mlogin;
     private TextView mtextshow;
-    private String e;
+    //private String e;
     private String emails;
     private String pass;
 
